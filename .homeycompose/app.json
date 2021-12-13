@@ -1,9 +1,9 @@
 {
   "id": "dk.holion.wol",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "compatibility": ">=5.0.0",
   "sdk": 3,
-  "brandColor": "#00bcd4",
+  "brandColor": "#63c37b",
   "platforms": [
     "local"
   ],
@@ -11,7 +11,7 @@
     "en": "WakeOnLan"
   },
   "description": {
-    "en": "Adds support for MyBrand devices."
+    "en": "Wake on LAN"
   },
   "category": [
     "tools"
@@ -19,8 +19,7 @@
   "permissions": [],
   "images": {
     "small": "/assets/images/small.png",
-    "large": "/assets/images/large.png",
-    "xlarge": "/assets/images/xlarge.png"
+    "large": "/assets/images/large.png"
   },
   "author": {
     "name": "Jesper Jaques",

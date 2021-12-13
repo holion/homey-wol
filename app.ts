@@ -1,10 +1,6 @@
 import Homey from 'homey';
 import wol2 from 'node-wol';
 class MyApp extends Homey.App {
-
-  /**
-   * onInit is called when the app is initialized.
-   */
   async onInit() {
     this.log('MyApp has been initialized');
 
