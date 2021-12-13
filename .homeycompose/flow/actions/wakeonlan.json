@@ -1,0 +1,14 @@
+{
+  "title": {
+    "en": "WakeOnLan"
+  },
+  "args": [
+    {
+      "type": "text",
+      "name": "mac_address",
+      "placeholder": {
+        "en": "d2:a7:2e:e6:d3:d5"
+      }
+    }
+  ]
+}

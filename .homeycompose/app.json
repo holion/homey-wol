@@ -1,0 +1,29 @@
+{
+  "id": "dk.holion.wol",
+  "version": "1.0.0",
+  "compatibility": ">=5.0.0",
+  "sdk": 3,
+  "brandColor": "#00bcd4",
+  "platforms": [
+    "local"
+  ],
+  "name": {
+    "en": "WakeOnLan"
+  },
+  "description": {
+    "en": "Adds support for MyBrand devices."
+  },
+  "category": [
+    "tools"
+  ],
+  "permissions": [],
+  "images": {
+    "small": "/assets/images/small.png",
+    "large": "/assets/images/large.png",
+    "xlarge": "/assets/images/xlarge.png"
+  },
+  "author": {
+    "name": "Jesper Jaques",
+    "email": "jj@holion.dk"
+  }
+}

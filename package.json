@@ -1,0 +1,21 @@
+{
+  "name": "dk.holion.wol",
+  "version": "1.0.0",
+  "main": "app.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "homey app run",
+    "prod": "homey app install"
+  },
+  "devDependencies": {
+    "@tsconfig/node12": "^1.0.9",
+    "@types/homey": "npm:homey-apps-sdk-v3-types@^0.2.2",
+    "@types/node": "^16.11.12",
+    "@types/wake_on_lan": "^0.0.30",
+    "typescript": "^4.5.3"
+  },
+  "dependencies": {
+    "node-wol": "^0.1.1",
+    "wake_on_lan": "^1.0.0"
+  }
+}
