@@ -6,7 +6,7 @@ class MyApp extends Homey.App {
 
     const cardWakeOnLan = this.homey.flow.getActionCard("wakeonlan");
     cardWakeOnLan.registerRunListener(args => {
-      const mac_address = args.mac_address;
+      const mac_address = args.mac_address.trim();
       if (mac_address) {
         // Validate mac address
         if (!mac_address.match(/^([0-9A-Fa-f]{2}[:-]){5}([0-9A-Fa-f]{2})$/)) {
